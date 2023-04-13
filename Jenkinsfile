@@ -23,13 +23,13 @@ pipeline {
                 }
             }
         }
-        stage('config'){
-            steps{
-                script{
-                    gv.config()
-                }
-            }
-        }
+//         stage('config'){
+//             steps{
+//                 script{
+//                     gv.config()
+//                 }
+//             }
+//         }
         stage('build') {
             
             steps {
